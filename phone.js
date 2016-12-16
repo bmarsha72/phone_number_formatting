@@ -18,13 +18,13 @@ function validatePhone(phoneno){
         {
           return console.log('sorry, you have too many digits');
         }
-        else if (desired2.length < 7)
+        else if (desired2.length < 10)
         {
-          return console.log('sorry, you have too few digits')
+          return console.log('sorry, US numbers must have exactly ten digits')
         }
         else
         {
-          console.log('you are good to go, captain');
+          console.log('you are cleared for takeoff, captain');
         }
       }
     else return false;
