@@ -3,7 +3,7 @@ var phoneno = '+1-(337--776-8899';
 
 function validatePhone(phoneno){
 
-    //strip out the excess:
+    //strip out the non-numerical characters:
     var desired = phoneno.replace(/[^\w\s]/gi, '');
     var desired2 = desired.replace(/\s/g,'');
 
